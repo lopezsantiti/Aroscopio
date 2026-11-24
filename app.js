@@ -11,6 +11,14 @@
   const dec = (n) => n == null ? '–' : n.toLocaleString('es-AR', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
   const sumarDias = (f, n) => { const d = new Date(f + 'T12:00:00Z'); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
 
+  // Los datos se actualizan una vez por día: si el partido ya empezó, lo decimos en vez de mostrar un estado viejo
+  function estadoTexto(p) {
+    if (p.estado === 'final') return 'Terminado';
+    if (p.hora && Date.now() >= new Date(p.hora).getTime()) return `Empezó a las ${hora(p.hora)} · resultado mañana`;
+    if (p.estado === 'en juego') return 'Empezó · resultado mañana';
+    return hora(p.hora);
+  }
+
   function marcarMenu(sec) {
     document.querySelectorAll('.menu a').forEach((a) => a.classList.toggle('activo', a.dataset.sec === sec));
   }
@@ -35,7 +43,7 @@
     const derecha = final
       ? `<span class="chip ${p.acierto ? 'ok' : 'mal'}">${p.acierto ? 'El modelo acertó' : 'El modelo falló'}</span>`
       : `<span class="ver">Ver análisis ›</span>`;
-    const estado = final ? 'Terminado' : p.estado === 'en juego' ? 'En juego' : hora(p.hora);
+    const estado = estadoTexto(p);
     const pts = (eq, n) => final ? ` · ${n} puntos` : ` · ${eq}`;
     const chips = etiquetas(p).map((x) => `<span class="chip">${esc(x)}</span>`).join('');
     return `<a class="partido" href="#partido-${p.id}">
@@ -84,7 +92,7 @@
 
     const cabeza = final
       ? `<p class="tenue">${esc(fechaLarga(p.fecha))} · Terminado: ${esc(V.nombre)} ${p.marcador.visitante}, ${esc(L.nombre)} ${p.marcador.local}</p>`
-      : `<p class="tenue">${esc(fechaLarga(p.fecha))} · ${esc(hora(p.hora))} · en la cancha de ${esc(L.nombre)}</p>`;
+      : `<p class="tenue">${esc(fechaLarga(p.fecha))} · ${esc(estadoTexto(p))} · en la cancha de ${esc(L.nombre)}</p>`;
 
     const factores = final
       ? `<p>Antes del partido el modelo le daba <b>${favPct}%</b> a ${esc(fav)}. ${p.acierto ? 'Acertó.' : 'Falló: ganó el que tenía menos chances.'}</p>
