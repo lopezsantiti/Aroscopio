@@ -1,1 +1,66 @@
-[]
+[
+ {
+  "id": 21718173,
+  "fecha": "2026-11-23",
+  "local": "Pacers",
+  "visitante": "Thunder",
+  "probLocal": 26,
+  "guardado": "2026-11-24T00:27:27.592Z"
+ },
+ {
+  "id": 21718174,
+  "fecha": "2026-11-23",
+  "local": "Raptors",
+  "visitante": "Bucks",
+  "probLocal": 85,
+  "guardado": "2026-11-24T00:27:27.592Z"
+ },
+ {
+  "id": 21718175,
+  "fecha": "2026-11-23",
+  "local": "Timberwolves",
+  "visitante": "Nets",
+  "probLocal": 91,
+  "guardado": "2026-11-24T00:27:27.592Z"
+ },
+ {
+  "id": 21718176,
+  "fecha": "2026-11-23",
+  "local": "Bulls",
+  "visitante": "Cavaliers",
+  "probLocal": 35,
+  "guardado": "2026-11-24T00:27:27.592Z"
+ },
+ {
+  "id": 21718177,
+  "fecha": "2026-11-23",
+  "local": "Pelicans",
+  "visitante": "Suns",
+  "probLocal": 39,
+  "guardado": "2026-11-24T00:27:27.592Z"
+ },
+ {
+  "id": 21718178,
+  "fecha": "2026-11-23",
+  "local": "Rockets",
+  "visitante": "Clippers",
+  "probLocal": 84,
+  "guardado": "2026-11-24T00:27:27.592Z"
+ },
+ {
+  "id": 21718179,
+  "fecha": "2026-11-23",
+  "local": "Lakers",
+  "visitante": "Jazz",
+  "probLocal": 91,
+  "guardado": "2026-11-24T00:27:27.592Z"
+ },
+ {
+  "id": 21718180,
+  "fecha": "2026-11-23",
+  "local": "Kings",
+  "visitante": "Spurs",
+  "probLocal": 14,
+  "guardado": "2026-11-24T00:27:27.592Z"
+ }
+]
