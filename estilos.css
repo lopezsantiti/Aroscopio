@@ -1,0 +1,92 @@
+:root{--fondo:#101418;--tarjeta:#1a2027;--borde:#262e37;--suave:#232b34;--texto:#f2f4f5;--tenue:#a9b4bf;--claro:#d5dce2;--naranja:#ff7a1a;--naranja-txt:#ff8a33;--azul:#4a9eff;--azul-txt:#6fb6ff}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--fondo);color:var(--texto);font:16px/1.5 Inter,system-ui,sans-serif;overflow-x:clip}
+h1,h2,h3,.titular{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.1;margin:0;text-wrap:balance}
+a{color:var(--naranja-txt);text-decoration:none}a:hover{color:#ffb070}
+a:focus-visible,button:focus-visible{outline:3px solid var(--naranja);outline-offset:2px;border-radius:8px}
+p{margin:0}
+.contenedor{max-width:1200px;margin:0 auto;padding-inline:24px}
+.barra{border-bottom:1px solid var(--borde)}
+.fila{display:flex;flex-wrap:wrap;align-items:center;gap:16px 24px;padding-block:14px}
+.logo{display:flex;align-items:center;gap:10px;color:var(--texto);font:700 24px "Space Grotesk",sans-serif}
+.menu{display:flex;flex-wrap:wrap;gap:6px 20px;font-size:15px}
+.menu a{color:var(--tenue);padding-block:4px}
+.menu a.activo{color:var(--texto);font-weight:600;border-bottom:2px solid var(--naranja)}
+.boton-borde{margin-left:auto;min-height:44px;display:inline-flex;align-items:center;padding:0 20px;border:1px solid #3a4550;border-radius:999px;color:var(--texto);font-weight:600;font-size:15px}
+.principal{display:flex;flex-wrap:wrap;gap:32px;align-items:flex-start;padding-block:32px 56px}
+.columna{flex:999 1 620px;display:flex;flex-direction:column;gap:18px}
+.lateral{flex:1 1 300px;display:flex;flex-direction:column;gap:20px}
+.tarjeta{background:var(--tarjeta);border:1px solid var(--borde);border-radius:18px;padding:22px}
+.tarjeta h2{font-size:20px;margin-bottom:10px}
+.tarjeta p+p{margin-top:10px}
+.tenue{color:var(--tenue);font-size:14px}
+.pro{background:var(--naranja);color:var(--fondo);border:0}
+.pro ul{margin:0 0 16px;padding-left:18px;font-size:15px}
+.etiqueta-oscura{display:inline-block;background:var(--fondo);color:var(--naranja-txt);font-size:12px;font-weight:600;border-radius:999px;padding:3px 10px;margin-bottom:10px}
+.pro h2{font-size:24px}
+.boton-oscuro{min-height:44px;display:inline-flex;align-items:center;padding:0 18px;background:var(--fondo);color:var(--texto);border-radius:999px;font-weight:600;font-size:15px}
+.boton-oscuro:hover{color:var(--naranja-txt)}
+.encabezado{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px}
+.lema{color:var(--naranja-txt);font-weight:600;font-size:15px;margin-bottom:6px}
+h1{font-size:clamp(32px,5vw,44px)}
+.subtitulo{color:var(--tenue);margin-top:8px}
+.dias{display:flex;gap:6px;flex-wrap:wrap}
+.dias a{min-height:44px;display:flex;align-items:center;padding:0 16px;border:1px solid #3a4550;border-radius:12px;color:var(--texto);font-size:15px}
+.dias a.activo{background:var(--texto);color:var(--fondo);border-color:var(--texto);font-weight:600}
+.partido{display:block;background:var(--tarjeta);border:1px solid var(--borde);border-radius:18px;padding:20px 22px;color:var(--texto)}
+a.partido:hover{border-color:#3a4550;color:var(--texto)}
+.partido-arriba{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;font-size:14px;color:var(--tenue);margin-bottom:12px}
+.ver{color:var(--naranja-txt);font-weight:600}
+.equipos{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 16px;align-items:baseline}
+.nombre{font:700 22px "Space Grotesk",sans-serif}
+.nombre small{font:400 14px Inter,sans-serif;color:var(--tenue)}
+.pct{font:700 26px "Space Grotesk",sans-serif;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.pct.l{color:var(--naranja-txt)}.pct.v{color:var(--azul-txt)}
+.pct small{font:500 14px Inter,sans-serif;color:var(--tenue);margin-left:8px}
+.barra-prob{display:flex;height:10px;border-radius:99px;overflow:hidden;margin:14px 0 12px;background:var(--borde)}
+.barra-prob .v{background:var(--azul)}.barra-prob .l{flex:1;background:var(--naranja)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;font-size:13px}
+.chip{background:var(--suave);border-radius:999px;padding:4px 10px;color:var(--claro)}
+.chip.ok{background:#1f3a2a;color:#9be2b4}.chip.mal{background:#3a2323;color:#f3a9a9}
+.vacio{background:var(--tarjeta);border:1px dashed #3a4550;border-radius:18px;padding:28px;color:var(--claro)}
+.volver{font-weight:600;font-size:15px}
+.grande{background:var(--tarjeta);border:1px solid var(--borde);border-radius:22px;padding:26px}
+.duelo{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:12px;align-items:end;margin-top:16px}
+.duelo .der{text-align:right}
+.duelo .equipo{font:700 clamp(24px,4vw,34px) "Space Grotesk",sans-serif}
+.duelo .numero{font:700 clamp(48px,9vw,72px) "Space Grotesk",sans-serif;line-height:1;font-variant-numeric:tabular-nums}
+.duelo .vs{color:var(--tenue);padding-bottom:12px}
+.grande .barra-prob{height:14px;margin:18px 0 0}
+.dos{display:flex;flex-wrap:wrap;gap:20px;align-items:flex-start}
+.dos>.tarjeta{flex:1 1 380px}
+.tarjeta h2.mayor{font-size:24px;margin-bottom:4px}
+.factor{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;padding:12px 0;border-top:1px solid var(--borde)}
+.factor b{white-space:nowrap}.factor .nota{grid-column:1/-1;color:var(--tenue);font-size:14px}
+.comp{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:0 12px;padding:10px 0;border-top:1px solid var(--borde);align-items:center}
+.comp b{font-variant-numeric:tabular-nums;white-space:nowrap}.comp b:last-child{text-align:right}
+.comp span{color:var(--tenue);font-size:14px;text-align:center}
+.comp.cab{border-top:0;font-size:13px;color:var(--tenue);padding-top:0}
+.forma{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:10px}
+.forma .quien{width:110px;color:var(--tenue);font-size:14px}
+.res{width:30px;height:30px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;background:#2c353f;color:var(--claro)}
+.res.G{background:var(--naranja);color:var(--fondo)}
+.bloqueado{position:relative;overflow:hidden}
+.fantasma{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px 16px;margin-top:16px;opacity:.35}
+.fantasma i{height:14px;border-radius:6px;background:#3a4550}
+.candado{margin-top:16px;display:flex;flex-wrap:wrap;align-items:center;gap:14px}
+.candado p{flex:1 1 260px;color:var(--claro)}
+.tabla{width:100%;border-collapse:collapse;font-size:15px}
+.tabla th{text-align:left;color:var(--tenue);font-weight:500;font-size:13px;padding:8px 10px;border-bottom:1px solid var(--borde)}
+.tabla td{padding:10px;border-bottom:1px solid var(--borde)}
+.tabla td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+.cifra{font:700 52px "Space Grotesk",sans-serif;line-height:1}
+.mini{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;font-size:14px;margin-top:14px}
+.mini div{background:var(--suave);border-radius:12px;padding:10px 12px}
+.mini span{display:block;color:var(--tenue)}
+.texto-largo{max-width:68ch;display:flex;flex-direction:column;gap:14px}
+.texto-largo h2{font-size:22px;margin-top:10px}
+.pie{border-top:1px solid var(--borde);color:var(--tenue);font-size:13px}
+.fila-pie{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;padding-block:20px}
+.cargando{color:var(--tenue)}
+@media(max-width:600px){.boton-borde{margin-left:0}.forma .quien{width:100%}.fantasma{grid-template-columns:repeat(2,minmax(0,1fr))}.tabla{font-size:13px}}
