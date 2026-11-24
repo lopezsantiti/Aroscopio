@@ -5,7 +5,12 @@
   "local": "Pacers",
   "visitante": "Thunder",
   "probLocal": 26,
-  "guardado": "2026-11-24T00:27:27.592Z"
+  "guardado": "2026-11-24T00:27:27.592Z",
+  "resultado": {
+   "local": 125,
+   "visitante": 120
+  },
+  "acierto": false
  },
  {
   "id": 21718174,
@@ -13,7 +18,12 @@
   "local": "Raptors",
   "visitante": "Bucks",
   "probLocal": 85,
-  "guardado": "2026-11-24T00:27:27.592Z"
+  "guardado": "2026-11-24T00:27:27.592Z",
+  "resultado": {
+   "local": 111,
+   "visitante": 116
+  },
+  "acierto": false
  },
  {
   "id": 21718175,
@@ -21,7 +31,12 @@
   "local": "Timberwolves",
   "visitante": "Nets",
   "probLocal": 91,
-  "guardado": "2026-11-24T00:27:27.592Z"
+  "guardado": "2026-11-24T00:27:27.592Z",
+  "resultado": {
+   "local": 142,
+   "visitante": 116
+  },
+  "acierto": true
  },
  {
   "id": 21718176,
@@ -29,7 +44,12 @@
   "local": "Bulls",
   "visitante": "Cavaliers",
   "probLocal": 35,
-  "guardado": "2026-11-24T00:27:27.592Z"
+  "guardado": "2026-11-24T00:27:27.592Z",
+  "resultado": {
+   "local": 122,
+   "visitante": 108
+  },
+  "acierto": false
  },
  {
   "id": 21718177,
@@ -37,7 +57,12 @@
   "local": "Pelicans",
   "visitante": "Suns",
   "probLocal": 39,
-  "guardado": "2026-11-24T00:27:27.592Z"
+  "guardado": "2026-11-24T00:27:27.592Z",
+  "resultado": {
+   "local": 119,
+   "visitante": 123
+  },
+  "acierto": true
  },
  {
   "id": 21718178,
@@ -45,7 +70,12 @@
   "local": "Rockets",
   "visitante": "Clippers",
   "probLocal": 84,
-  "guardado": "2026-11-24T00:27:27.592Z"
+  "guardado": "2026-11-24T00:27:27.592Z",
+  "resultado": {
+   "local": 116,
+   "visitante": 104
+  },
+  "acierto": true
  },
  {
   "id": 21718179,
@@ -53,7 +83,12 @@
   "local": "Lakers",
   "visitante": "Jazz",
   "probLocal": 91,
-  "guardado": "2026-11-24T00:27:27.592Z"
+  "guardado": "2026-11-24T00:27:27.592Z",
+  "resultado": {
+   "local": 109,
+   "visitante": 94
+  },
+  "acierto": true
  },
  {
   "id": 21718180,
@@ -61,6 +96,35 @@
   "local": "Kings",
   "visitante": "Spurs",
   "probLocal": 14,
-  "guardado": "2026-11-24T00:27:27.592Z"
+  "guardado": "2026-11-24T00:27:27.592Z",
+  "resultado": {
+   "local": 107,
+   "visitante": 123
+  },
+  "acierto": true
+ },
+ {
+  "id": 21718181,
+  "fecha": "2026-11-24",
+  "local": "Magic",
+  "visitante": "Pistons",
+  "probLocal": 45,
+  "guardado": "2026-11-24T23:08:19.136Z"
+ },
+ {
+  "id": 21718182,
+  "fecha": "2026-11-24",
+  "local": "Wizards",
+  "visitante": "Celtics",
+  "probLocal": 25,
+  "guardado": "2026-11-24T23:08:19.136Z"
+ },
+ {
+  "id": 21718183,
+  "fecha": "2026-11-24",
+  "local": "Nuggets",
+  "visitante": "Mavericks",
+  "probLocal": 79,
+  "guardado": "2026-11-24T23:08:19.136Z"
  }
 ]
