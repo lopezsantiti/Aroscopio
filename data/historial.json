@@ -109,7 +109,12 @@
   "local": "Magic",
   "visitante": "Pistons",
   "probLocal": 45,
-  "guardado": "2026-11-24T23:08:19.136Z"
+  "guardado": "2026-11-24T23:08:19.136Z",
+  "resultado": {
+   "local": 86,
+   "visitante": 104
+  },
+  "acierto": true
  },
  {
   "id": 21718182,
@@ -117,7 +122,12 @@
   "local": "Wizards",
   "visitante": "Celtics",
   "probLocal": 25,
-  "guardado": "2026-11-24T23:08:19.136Z"
+  "guardado": "2026-11-24T23:08:19.136Z",
+  "resultado": {
+   "local": 116,
+   "visitante": 131
+  },
+  "acierto": true
  },
  {
   "id": 21718183,
@@ -125,6 +135,75 @@
   "local": "Nuggets",
   "visitante": "Mavericks",
   "probLocal": 79,
-  "guardado": "2026-11-24T23:08:19.136Z"
+  "guardado": "2026-11-24T23:08:19.136Z",
+  "resultado": {
+   "local": 101,
+   "visitante": 120
+  },
+  "acierto": false
+ },
+ {
+  "id": 21718185,
+  "fecha": "2026-11-25",
+  "local": "Hornets",
+  "visitante": "Bulls",
+  "probLocal": 68,
+  "guardado": "2026-11-25T22:40:54.212Z"
+ },
+ {
+  "id": 21718186,
+  "fecha": "2026-11-25",
+  "local": "Knicks",
+  "visitante": "Cavaliers",
+  "probLocal": 81,
+  "guardado": "2026-11-25T22:40:54.212Z"
+ },
+ {
+  "id": 21718187,
+  "fecha": "2026-11-25",
+  "local": "Thunder",
+  "visitante": "Timberwolves",
+  "probLocal": 66,
+  "guardado": "2026-11-25T22:40:54.212Z"
+ },
+ {
+  "id": 21718188,
+  "fecha": "2026-11-25",
+  "local": "Grizzlies",
+  "visitante": "Clippers",
+  "probLocal": 73,
+  "guardado": "2026-11-25T22:40:54.212Z"
+ },
+ {
+  "id": 21718189,
+  "fecha": "2026-11-25",
+  "local": "Bucks",
+  "visitante": "Nets",
+  "probLocal": 65,
+  "guardado": "2026-11-25T22:40:54.212Z"
+ },
+ {
+  "id": 21718190,
+  "fecha": "2026-11-25",
+  "local": "Rockets",
+  "visitante": "Suns",
+  "probLocal": 74,
+  "guardado": "2026-11-25T22:40:54.212Z"
+ },
+ {
+  "id": 21718191,
+  "fecha": "2026-11-25",
+  "local": "Warriors",
+  "visitante": "Kings",
+  "probLocal": 82,
+  "guardado": "2026-11-25T22:40:54.212Z"
+ },
+ {
+  "id": 21718192,
+  "fecha": "2026-11-25",
+  "local": "Trail Blazers",
+  "visitante": "Spurs",
+  "probLocal": 46,
+  "guardado": "2026-11-25T22:40:54.212Z"
  }
 ]
