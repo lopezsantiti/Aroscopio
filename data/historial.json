@@ -148,7 +148,12 @@
   "local": "Hornets",
   "visitante": "Bulls",
   "probLocal": 68,
-  "guardado": "2026-11-25T22:40:54.212Z"
+  "guardado": "2026-11-25T22:40:54.212Z",
+  "resultado": {
+   "local": 105,
+   "visitante": 107
+  },
+  "acierto": false
  },
  {
   "id": 21718186,
@@ -156,7 +161,12 @@
   "local": "Knicks",
   "visitante": "Cavaliers",
   "probLocal": 81,
-  "guardado": "2026-11-25T22:40:54.212Z"
+  "guardado": "2026-11-25T22:40:54.212Z",
+  "resultado": {
+   "local": 121,
+   "visitante": 102
+  },
+  "acierto": true
  },
  {
   "id": 21718187,
@@ -164,7 +174,12 @@
   "local": "Thunder",
   "visitante": "Timberwolves",
   "probLocal": 66,
-  "guardado": "2026-11-25T22:40:54.212Z"
+  "guardado": "2026-11-25T22:40:54.212Z",
+  "resultado": {
+   "local": 106,
+   "visitante": 113
+  },
+  "acierto": false
  },
  {
   "id": 21718188,
@@ -172,7 +187,12 @@
   "local": "Grizzlies",
   "visitante": "Clippers",
   "probLocal": 73,
-  "guardado": "2026-11-25T22:40:54.212Z"
+  "guardado": "2026-11-25T22:40:54.212Z",
+  "resultado": {
+   "local": 115,
+   "visitante": 97
+  },
+  "acierto": true
  },
  {
   "id": 21718189,
@@ -180,7 +200,12 @@
   "local": "Bucks",
   "visitante": "Nets",
   "probLocal": 65,
-  "guardado": "2026-11-25T22:40:54.212Z"
+  "guardado": "2026-11-25T22:40:54.212Z",
+  "resultado": {
+   "local": 97,
+   "visitante": 104
+  },
+  "acierto": false
  },
  {
   "id": 21718190,
@@ -188,7 +213,12 @@
   "local": "Rockets",
   "visitante": "Suns",
   "probLocal": 74,
-  "guardado": "2026-11-25T22:40:54.212Z"
+  "guardado": "2026-11-25T22:40:54.212Z",
+  "resultado": {
+   "local": 116,
+   "visitante": 104
+  },
+  "acierto": true
  },
  {
   "id": 21718191,
@@ -196,7 +226,12 @@
   "local": "Warriors",
   "visitante": "Kings",
   "probLocal": 82,
-  "guardado": "2026-11-25T22:40:54.212Z"
+  "guardado": "2026-11-25T22:40:54.212Z",
+  "resultado": {
+   "local": 129,
+   "visitante": 110
+  },
+  "acierto": true
  },
  {
   "id": 21718192,
@@ -204,6 +239,11 @@
   "local": "Trail Blazers",
   "visitante": "Spurs",
   "probLocal": 46,
-  "guardado": "2026-11-25T22:40:54.212Z"
+  "guardado": "2026-11-25T22:40:54.212Z",
+  "resultado": {
+   "local": 116,
+   "visitante": 111
+  },
+  "acierto": false
  }
 ]
