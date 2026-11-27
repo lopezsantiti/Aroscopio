@@ -245,5 +245,93 @@
    "visitante": 111
   },
   "acierto": false
+ },
+ {
+  "id": 21718193,
+  "fecha": "2026-11-27",
+  "local": "Knicks",
+  "visitante": "Heat",
+  "probLocal": 81,
+  "guardado": "2026-11-27T22:04:54.838Z"
+ },
+ {
+  "id": 21718194,
+  "fecha": "2026-11-27",
+  "local": "Pistons",
+  "visitante": "Bucks",
+  "probLocal": 93,
+  "guardado": "2026-11-27T22:04:54.838Z"
+ },
+ {
+  "id": 21718195,
+  "fecha": "2026-11-27",
+  "local": "Pacers",
+  "visitante": "76ers",
+  "probLocal": 35,
+  "guardado": "2026-11-27T22:04:54.838Z"
+ },
+ {
+  "id": 21718196,
+  "fecha": "2026-11-27",
+  "local": "Raptors",
+  "visitante": "Nets",
+  "probLocal": 82,
+  "guardado": "2026-11-27T22:04:54.838Z"
+ },
+ {
+  "id": 21718197,
+  "fecha": "2026-11-27",
+  "local": "Celtics",
+  "visitante": "Hawks",
+  "probLocal": 74,
+  "guardado": "2026-11-27T22:04:54.838Z"
+ },
+ {
+  "id": 21718198,
+  "fecha": "2026-11-27",
+  "local": "Timberwolves",
+  "visitante": "Grizzlies",
+  "probLocal": 78,
+  "guardado": "2026-11-27T22:04:54.838Z"
+ },
+ {
+  "id": 21718199,
+  "fecha": "2026-11-27",
+  "local": "Suns",
+  "visitante": "Mavericks",
+  "probLocal": 70,
+  "guardado": "2026-11-27T22:04:54.838Z"
+ },
+ {
+  "id": 21718200,
+  "fecha": "2026-11-27",
+  "local": "Spurs",
+  "visitante": "Lakers",
+  "probLocal": 76,
+  "guardado": "2026-11-27T22:04:54.838Z"
+ },
+ {
+  "id": 21718201,
+  "fecha": "2026-11-27",
+  "local": "Jazz",
+  "visitante": "Nuggets",
+  "probLocal": 34,
+  "guardado": "2026-11-27T22:04:54.838Z"
+ },
+ {
+  "id": 21718202,
+  "fecha": "2026-11-27",
+  "local": "Clippers",
+  "visitante": "Pelicans",
+  "probLocal": 72,
+  "guardado": "2026-11-27T22:04:54.838Z"
+ },
+ {
+  "id": 21718203,
+  "fecha": "2026-11-27",
+  "local": "Trail Blazers",
+  "visitante": "Warriors",
+  "probLocal": 79,
+  "guardado": "2026-11-27T22:04:54.838Z"
  }
 ]
